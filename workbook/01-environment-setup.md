@@ -64,7 +64,8 @@ aws-cli/2.x.x Python/3.x.x Linux/...
 Create a fresh working directory for your Terraform code:
 
 ```
-mkdir /opt/lab_env
+sudo mkdir /opt/lab_env
+sudo chown vscode:vscode /opt/lab_env
 cd /opt/lab_env
 ```
 
